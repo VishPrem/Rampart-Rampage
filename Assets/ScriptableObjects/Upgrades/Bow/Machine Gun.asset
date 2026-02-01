@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4254fe9ae99daa4b80baee557196e52, type: 3}
+  m_Name: Machine Gun
+  m_EditorClassIdentifier: 
+  cost: 30
+  icon: {fileID: 0}
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 359ef68c3c85e82438086ddc1ae52fe6, type: 2}
+        m_TargetAssemblyTypeName: soEvent, Assembly-CSharp
+        m_MethodName: invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: bb5aefeb91e458349ad27ee569c1287d, type: 2}
+        m_TargetAssemblyTypeName: soEventWithArgs`1[[UnityEngine.GameObject, UnityEngine
+        m_MethodName: invoke
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1773737592880944080, guid: 63d665bfd790f2c4db3ac4e0c20f39bf, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
